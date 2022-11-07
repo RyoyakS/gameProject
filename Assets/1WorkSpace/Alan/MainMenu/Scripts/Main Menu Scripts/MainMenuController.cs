@@ -21,6 +21,7 @@ public class MainMenuController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
+        newGameSceneName="Assets/1WorkSpace/Alan/temp.unity";
         //new key
         PlayerPrefs.SetInt("quickSaveSlot", quickSaveSlotID);
     }
