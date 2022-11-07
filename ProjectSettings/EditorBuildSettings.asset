@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/1WorkSpace/Alan/temp.unity
+    guid: dda02860bd794de4aabfe8143632348f
+  - enabled: 1
+    path: Assets/1WorkSpace/Alan/MainMenu/Scenes/MainMenu.unity
+    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
   m_configObjects: {}
