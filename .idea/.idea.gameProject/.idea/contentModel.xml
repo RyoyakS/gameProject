@@ -4,61 +4,7 @@
     <e p="C:\Users\RYKS\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\RYKS\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_gameProject.-435199808.00" t="ExcludeRecursive" />
     <e p="D:\Unity Projects\gameProject\gameProject" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="StarterAssets" t="Include">
-          <e p="Editor" t="Include">
-            <e p="PackageChecker" t="Include">
-              <e p="PackageChecker.cs" t="Include" />
-              <e p="PackageImportList.txt" t="Include" />
-            </e>
-            <e p="ScriptingDefineUtils.cs" t="Include" />
-            <e p="StarterAssetsDeployMenu.cs" t="Include" />
-            <e p="ThirdPersonStarterAssetsDeployMenu.cs" t="Include" />
-          </e>
-          <e p="Environment" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="Built-in_RP" t="Include">
-                <e p="ArmatureShader.shader" t="Include" />
-                <e p="Triplanar.shader" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="InputSystem" t="Include">
-            <e p="StarterAssetsInputs.cs" t="Include" />
-          </e>
-          <e p="license.txt" t="Include" />
-          <e p="Mobile" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="CanvasInputs" t="Include">
-                <e p="UICanvasControllerInput.cs" t="Include" />
-              </e>
-              <e p="Utilities" t="Include">
-                <e p="MobileDisableAutoSwitchControls.cs" t="Include" />
-              </e>
-              <e p="VirtualInputs" t="Include">
-                <e p="UIVirtualButton.cs" t="Include" />
-                <e p="UIVirtualJoystick.cs" t="Include" />
-                <e p="UIVirtualTouchZone.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="ThirdPersonController" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="BasicRigidBodyPush.cs" t="Include" />
-              <e p="ThirdPersonController.cs" t="Include" />
-            </e>
-          </e>
-          <e p="TutorialInfo" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Editor" t="Include">
-                <e p="ReadmeEditor.cs" t="Include" />
-              </e>
-              <e p="Readme.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="UniGLTF" t="Include">
           <e p="Editor" t="Include">
             <e p="Animation" t="Include">
@@ -705,13 +651,6 @@
                 </e>
                 <e p="VRMShaders.GLTF.IO.Editor.asmdef" t="Include" />
               </e>
-              <e p="Resources" t="Include">
-                <e p="UniGLTF" t="Include">
-                  <e p="NormalMapExporter.shader" t="Include" />
-                  <e p="StandardMapExporter.shader" t="Include" />
-                  <e p="StandardMapImporter.shader" t="Include" />
-                </e>
-              </e>
               <e p="Runtime" t="Include">
                 <e p="Animation" t="Include">
                   <e p="Importer" t="Include">
@@ -785,11 +724,6 @@
                 <e p="UniUnlitEditor.cs" t="Include" />
                 <e p="VRMShaders.GLTF.UniUnlit.Editor.asmdef" t="Include" />
               </e>
-              <e p="Resources" t="Include">
-                <e p="UniGLTF" t="Include">
-                  <e p="UniUnlit.shader" t="Include" />
-                </e>
-              </e>
               <e p="Runtime" t="Include">
                 <e p="UniUnlitUtil.cs" t="Include" />
                 <e p="VRMShaders.GLTF.UniUnlit.Runtime.asmdef" t="Include" />
@@ -847,23 +781,6 @@
                 <e p="MToon10EditorEditMode.cs" t="Include" />
                 <e p="MToonInspector.cs" t="Include" />
                 <e p="VRMShaders.VRM10.MToon10.Editor.asmdef" t="Include" />
-              </e>
-              <e p="Resources" t="Include">
-                <e p="VRM10" t="Include">
-                  <e p="vrmc_materials_mtoon.shader" t="Include" />
-                  <e p="vrmc_materials_mtoon_attribute.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_define.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_forward_fragment.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_forward_vertex.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_geometry_alpha.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_geometry_normal.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_geometry_uv.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_geometry_vertex.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_input.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_lighting_mtoon.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_lighting_unity.hlsl" t="Include" />
-                  <e p="vrmc_materials_mtoon_utility.hlsl" t="Include" />
-                </e>
               </e>
               <e p="Runtime" t="Include">
                 <e p="Extensions" t="Include">
