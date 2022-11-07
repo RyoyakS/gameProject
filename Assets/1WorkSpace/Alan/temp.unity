@@ -465,6 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SE: {fileID: 8300000, guid: fd706038486fee041947a774223dc22e, type: 3}
   audioPlayer: {fileID: 638431727}
+  exp1: {fileID: 100000, guid: f881607407b15cc46b24d6bda799037a, type: 3}
 --- !u!1 &2002014636
 GameObject:
   m_ObjectHideFlags: 0

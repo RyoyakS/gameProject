@@ -6,6 +6,7 @@ public class ball : MonoBehaviour
 {
     public AudioClip SE;
     public AudioSource audioPlayer;
+    public GameObject exp1;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class ball : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-
+            Instantiate(exp1, transform.position, transform.rotation);
             audioPlayer.PlayOneShot(SE);
 
     }
