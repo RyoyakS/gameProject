@@ -25643,6 +25643,9 @@ GameObject:
   - component: {fileID: 4135132063250235569}
   - component: {fileID: 4135132063250235568}
   - component: {fileID: 3864930126070264013}
+  - component: {fileID: 5733992836592368220}
+  - component: {fileID: 278919130564200092}
+  - component: {fileID: 4106060928944987485}
   m_Layer: 0
   m_Name: goblin_01_Mecanim
   m_TagString: Goblin
@@ -25780,6 +25783,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monster_HP: 100
+--- !u!114 &5733992836592368220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135132062954671491}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e58bbaeb2fce29418c0979fa147baa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 5763999001282175426, guid: 53e9e92fea6b52d488951c8501f266df, type: 3}
+--- !u!114 &278919130564200092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135132062954671491}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3b2072048410c4f93e9e82f54ad767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4106060928944987485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135132062954671491}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458e5d89ff4785a48891887427b231ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player_HP: 0
+  Player_Selected_Monster: {fileID: 0}
+  Player_Score: 0
+  state: 0
 --- !u!1 &7765045521852164676
 GameObject:
   m_ObjectHideFlags: 0

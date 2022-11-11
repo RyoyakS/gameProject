@@ -24820,6 +24820,9 @@ GameObject:
   - component: {fileID: 3568972563629817615}
   - component: {fileID: 3568972563629817614}
   - component: {fileID: 7558897806912006307}
+  - component: {fileID: 7923093984130056587}
+  - component: {fileID: 4942511110356224105}
+  - component: {fileID: 1534155433483209914}
   m_Layer: 0
   m_Name: troll_02_01_Mecanim
   m_TagString: Troll
@@ -24959,6 +24962,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monster_HP: 0
+--- !u!114 &7923093984130056587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568972563388726451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e58bbaeb2fce29418c0979fa147baa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 5763999001282175426, guid: 53e9e92fea6b52d488951c8501f266df, type: 3}
+--- !u!114 &4942511110356224105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568972563388726451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3b2072048410c4f93e9e82f54ad767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1534155433483209914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3568972563388726451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458e5d89ff4785a48891887427b231ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player_HP: 0
+  Player_Selected_Monster: {fileID: 0}
+  Player_Score: 0
+  state: 0
 --- !u!1 &3568972563388726455
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,12 +7,14 @@ public class Player_State : MonoBehaviour
     public float Player_HP;
     public GameObject Player_Selected_Monster;
     public float Player_Score;
+    public int state; //0代表人型態 1代表怪物型態
     bool ishit = false;
     Ray ray;
     RaycastHit hit;
     // Start is called before the first frame update
     void Start()
     {
+        state = 1;
         Player_HP = 100f;
         Player_Score = 0;
     }
