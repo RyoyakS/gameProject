@@ -10,6 +10,8 @@ TagManager:
   - Troll
   - Wolf
   - Ground
+  - Camera_
+  - Origin_Player
   layers:
   - Default
   - TransparentFX

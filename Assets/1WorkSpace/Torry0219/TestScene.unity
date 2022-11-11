@@ -161,6 +161,20 @@ MonoBehaviour:
   Player_HP: 0
   Player_Selected_Monster: {fileID: 0}
   Player_Score: 0
+  state: 0
+--- !u!114 &122389334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122389319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e58bbaeb2fce29418c0979fa147baa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
 --- !u!1 &155889522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4942511110356224105, guid: 5c4b4dbc33799bf419f55659f336ebd8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c4b4dbc33799bf419f55659f336ebd8, type: 3}
 --- !u!1001 &4135132062009245713
@@ -1685,6 +1703,10 @@ PrefabInstance:
       value: goblin_01_Mecanim
       objectReference: {fileID: 0}
     - target: {fileID: 4135132062954671491, guid: a39e44c33ccde234c96bb496d6a12aa0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135132062954671491, guid: a39e44c33ccde234c96bb496d6a12aa0, type: 3}
       propertyPath: m_TagString
       value: Goblin
       objectReference: {fileID: 0}
@@ -1697,6 +1719,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5194279827232669102, guid: a9da7d5a904e6544093536ffe6a17af7, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194279827232669102, guid: a9da7d5a904e6544093536ffe6a17af7, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5194279827246664000, guid: a9da7d5a904e6544093536ffe6a17af7, type: 3}
       propertyPath: m_Name
       value: wolf_02_Mecanim
@@ -1825,6 +1855,10 @@ PrefabInstance:
     - target: {fileID: 9155963808269725379, guid: 8fe3b5f60277c9c429e1f62978fc3c2f, type: 3}
       propertyPath: m_LockCursor
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155963808275208999, guid: 8fe3b5f60277c9c429e1f62978fc3c2f, type: 3}
+      propertyPath: m_TagString
+      value: Camera_
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fe3b5f60277c9c429e1f62978fc3c2f, type: 3}
