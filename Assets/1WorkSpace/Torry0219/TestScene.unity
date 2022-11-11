@@ -387,6 +387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recover_controller
       objectReference: {fileID: 0}
+    - target: {fileID: 6812701194606428341, guid: 927c308eced0982489286e896d54a8b2, type: 3}
+      propertyPath: Item_SE
+      value: 
+      objectReference: {fileID: 8300000, guid: 2398b1cad840d0c4b99a6a7a114b856a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927c308eced0982489286e896d54a8b2, type: 3}
 --- !u!1001 &3568972563128353329

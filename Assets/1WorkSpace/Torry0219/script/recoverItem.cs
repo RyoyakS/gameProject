@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class recoverItem : MonoBehaviour
 {
-    public static GameObject pf;
+    public GameObject pf;
     // Start is called before the first frame update
     void Start()
     {
-        //pf = GameObject.Find();
+        pf = gameObject;
     }
 
     // Update is called once per frame
@@ -23,6 +23,8 @@ public class recoverItem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             recover_prefab_control.eat = true;
+            recover_prefab_control.pf_pos = transform.position;
+            recover_prefab_control.pf_rot = transform.rotation;
             Destroy(this.gameObject);
         }
     }

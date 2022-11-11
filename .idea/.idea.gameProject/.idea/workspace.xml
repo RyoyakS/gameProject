@@ -26,22 +26,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fd211b-2272-456f-9f75-8d3c2e43a766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/Recover_controller.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/Recover_controller.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/Recover_item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/Recover_item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/audio_control.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/audio_control.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs.meta" afterDir="false" />
+    <list default="true" id="34fd211b-2272-456f-9f75-8d3c2e43a766" name="Default Changelist" comment="add recover">
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/01. 千年の呪い.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/01. 千年の呪い.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/02. 呪いの源.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/02. 呪いの源.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/pick.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/pick.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_AI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_AI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,7 @@
       <workItem from="1667807669488" duration="1163000" />
       <workItem from="1667810393103" duration="1096000" />
       <workItem from="1668157660112" duration="32000" />
-      <workItem from="1668157702975" duration="3436000" />
+      <workItem from="1668157702975" duration="5084000" />
     </task>
     <task id="LOCAL-00001" summary="vrm testing">
       <created>1667804608603</created>
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667807710320</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add recover">
+      <created>1668161995245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668161995245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,18 +205,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="vrm testing" />
     <MESSAGE value="Standard Asset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Standard Asset" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-816" y="58" key="Vcs.Push.Dialog.v2" timestamp="1667808176860">
-      <screen x="-1080" y="-394" width="1080" height="1872" />
-    </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/-1080.-394.1080.1872/0.0.1920.1032@0.0.1920.1032" timestamp="1667726551877" />
-    <state x="-816" y="58" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1080.-394.1080.1872@-1080.-394.1080.1872" timestamp="1667808176860" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1080.-394.1080.1872@0.0.1920.1032" timestamp="1667807720283" />
-    <state x="744" y="251" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1667806641934">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="744" y="251" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1032/-1080.-394.1080.1872@0.0.1920.1032" timestamp="1667806641934" />
+    <MESSAGE value="add recover" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recover" />
   </component>
 </project>
