@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028377, g: 0.22571409, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -276,7 +276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 2637761336400376099, guid: aada50a4ffb74244396f7cc233de33bc, type: 3}
-  select_monster: {fileID: 0}
 --- !u!1 &646854537
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +679,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c63f5f0ec9df974ca342b029dbb5fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt: {fileID: 29572994}
+  Selected_MonsterName_UI: {fileID: 0}
+  Time_UI: {fileID: 0}
+  Score_UI: {fileID: 0}
 --- !u!1 &1701882296
 GameObject:
   m_ObjectHideFlags: 0
