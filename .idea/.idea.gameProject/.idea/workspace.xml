@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,27 +29,111 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fd211b-2272-456f-9f75-8d3c2e43a766" name="Default Changelist" comment="add recover">
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/01. 千年の呪い.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/01. 千年の呪い.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/02. 呪いの源.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/02. 呪いの源.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/pick.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Audio/pick.wav.meta" afterDir="false" />
+    <list default="true" id="77a93206-fba1-4c94-b4af-64ccc5a89877" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Material.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Material/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Material/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Picture/血條.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Picture/血條.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Prefab/BackGround.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Prefab/BackGround.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Prefab/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Prefab/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Canvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Canvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_State.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_State.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_Attack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_Attack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_State.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_State.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/goblin_01_Mecanim.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/goblin_01_Mecanim.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/troll_02_01_Mecanim.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/troll_02_01_Mecanim.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/wolf_02_Mecanim.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/wolf_02_Mecanim.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,6 +144,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Canvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Player_State.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recoverItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/recover_prefab_control.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -80,15 +171,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe" />
@@ -122,7 +216,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34fd211b-2272-456f-9f75-8d3c2e43a766" name="Default Changelist" comment="" />
+      <changelist id="77a93206-fba1-4c94-b4af-64ccc5a89877" name="Changes" comment="" />
       <created>1667726376295</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -132,6 +226,7 @@
       <workItem from="1667810393103" duration="1096000" />
       <workItem from="1668157660112" duration="32000" />
       <workItem from="1668157702975" duration="5084000" />
+      <workItem from="1668179712253" duration="5596000" />
     </task>
     <task id="LOCAL-00001" summary="vrm testing">
       <created>1667804608603</created>
@@ -188,7 +283,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/nerazim" />
+                        <option value="origin/Torry0219" />
                       </list>
                     </value>
                   </entry>

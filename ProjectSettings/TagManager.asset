@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - recover
+  - Goblin
+  - Bullet
+  - Troll
+  - Wolf
+  - Ground
   layers:
   - Default
   - TransparentFX
