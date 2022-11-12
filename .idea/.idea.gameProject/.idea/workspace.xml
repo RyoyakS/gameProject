@@ -29,10 +29,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a93206-fba1-4c94-b4af-64ccc5a89877" name="Changes" comment="ver 0.2&#10;changed to monster finish">
+    <list default="true" id="77a93206-fba1-4c94-b4af-64ccc5a89877" name="Changes" comment="update:&#10;mon_ani.cs&#10;Monster_Move.cs&#10;PlayerToMonster.cs&#10;mon_AI.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_Imforation_UI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_Imforation_UI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/Monster_Move.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/PlayerToMonster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Nerazim/Script/PlayerToMonster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/goblin_01_Mecanim.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/Prefab/goblin_01_Mecanim.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_AI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_AI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_ani.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1WorkSpace/Torry0219/script/mon_ani.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,18 +85,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe" />
@@ -133,6 +141,8 @@
       <workItem from="1668157660112" duration="32000" />
       <workItem from="1668157702975" duration="5084000" />
       <workItem from="1668179712253" duration="12542000" />
+      <workItem from="1668232792688" duration="43000" />
+      <workItem from="1668232846964" duration="8851000" />
     </task>
     <task id="LOCAL-00001" summary="vrm testing">
       <created>1667804608603</created>
@@ -223,6 +233,7 @@
     <MESSAGE value="add recover" />
     <MESSAGE value="version 0.1&#10;UI Finish" />
     <MESSAGE value="ver 0.2&#10;changed to monster finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver 0.2&#10;changed to monster finish" />
+    <MESSAGE value="update:&#10;mon_ani.cs&#10;Monster_Move.cs&#10;PlayerToMonster.cs&#10;mon_AI.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:&#10;mon_ani.cs&#10;Monster_Move.cs&#10;PlayerToMonster.cs&#10;mon_AI.cs" />
   </component>
 </project>

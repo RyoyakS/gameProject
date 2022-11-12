@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Cameras;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class PlayerToMonster : MonoBehaviour
 {
@@ -25,10 +26,16 @@ public class PlayerToMonster : MonoBehaviour
                 GetComponent<Player_State>().Player_Selected_Monster.transform.GetComponent<Monster_Move>().enabled = true;
                 GetComponent<Player_State>().Player_Selected_Monster.transform.GetComponent<PlayerToMonster>().enabled = true;
                 GetComponent<Player_State>().Player_Selected_Monster.transform.GetComponent<Player_State>().enabled = true;
-                
+
                 GetComponent<Player_State>().Player_Selected_Monster.transform.GetComponent<Player_State>().state = 1;
                 
+                ///////// 
+                GetComponent<Player_State>().Player_Selected_Monster.transform.GetComponent<mon_ani>().playermode = true;
+
+                
                 GetComponent<Player_State>().Player_Selected_Monster = null;
+                
+                
                 this.gameObject.SetActive(false);
             }
         }
