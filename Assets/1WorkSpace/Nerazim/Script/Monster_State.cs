@@ -1,27 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Monster_State : MonoBehaviour
 {
+    public float Monster_HP;
     // Start is called before the first frame update
-    public float HP;
     void Start()
     {
-        
-        if(this.transform.tag=="Goblin")
-        {
-            HP = 100;
-        }
-        else if(this.transform.tag=="Troll")
-        {
-            HP = 100;
-        }
-        else if(this.transform.tag=="Wolf")
-        {
-            HP = 100;
-        }
-        
+        Monster_HP = 100f;
     }
 
     // Update is called once per frame
@@ -29,14 +17,15 @@ public class Monster_State : MonoBehaviour
     {
         
     }
+    
     void OnCollisionEnter(Collision collision)
     {
         if(collision.transform.tag=="Bullet")
         {
-            Player_State.Player_Score += 5;
-            print("123");
+            //Player_State.Player_Score += 5;
+            
             Destroy(collision.transform);
-            HP-=5;
+            Monster_HP-=5;
         }
     }
 }

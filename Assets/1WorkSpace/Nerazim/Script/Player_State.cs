@@ -4,38 +4,47 @@ using UnityEngine;
 
 public class Player_State : MonoBehaviour
 {
-    public static float Player_HP;
-    public static float Player_Score;
-    public  GameObject selected_monster;
+    public float Player_HP;
+    public GameObject Player_Selected_Monster;
+    public float Player_Score;
+    public int state; //0代表人型態 1代表怪物型態
     bool ishit = false;
     Ray ray;
     RaycastHit hit;
     // Start is called before the first frame update
     void Start()
     {
-        Player_HP = 100;
+        state = 1;
+        Player_HP = 100f;
         Player_Score = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //print(selected_monster.transform.tag);
-        Canvas.select_monster = selected_monster;
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);    
+        
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         if (Input.GetMouseButton(0) && Physics.Raycast(ray, out hit))
         {
             ishit = true;
-            //OnGUI(hit.transform.root.tag, hit.transform.name);
             
-            if(hit.collider.gameObject.transform.tag!="Ground")
+            if((hit.collider.gameObject.transform.tag=="Goblin")||(hit.collider.gameObject.transform.tag=="Wolf")||(hit.collider.gameObject.transform.tag=="Troll"))
             {
-                //print("hit");
-                //print(hit.collider.gameObject.tag);
-                selected_monster = hit.collider.gameObject;
+                print("hit");
+                Player_Selected_Monster = hit.collider.gameObject;
+            }
+            else
+            {
+                Player_Selected_Monster = null;
             }
             ishit = false;
         }
+
+        if (Player_Selected_Monster)
+        {
+            print(Player_Selected_Monster.transform.tag);
+        }
+        
     }
 }

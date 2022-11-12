@@ -17,7 +17,7 @@ public class mon_AI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(Vector3.Distance(transform.position, player.transform.position) <= 5f && Vector3.Distance(transform.position, player.transform.position)>2.5f && !mon_ani.lockAI){
+        if(Vector3.Distance(transform.position, player.transform.position) <= 10f && Vector3.Distance(transform.position, player.transform.position)>2.5f && !mon_ani.lockAI){
             navi.enabled = true;
             navi.SetDestination(player.transform.position);
         }

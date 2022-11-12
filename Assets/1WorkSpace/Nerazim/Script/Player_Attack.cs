@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class Player_Attack : MonoBehaviour
 {
-    public GameObject bullet;
+    public GameObject Bullet;
     // Start is called before the first frame update
-    bool ishit = false;
-    Ray ray;
-    RaycastHit hit;
-    
     void Start()
     {
         
@@ -20,12 +16,9 @@ public class Player_Attack : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Mouse1))
         {
-            GameObject bullet_ = Instantiate(bullet,this.transform.position+this.transform.forward+new Vector3(0,1,0),this.transform.rotation);
+            GameObject bullet_ = Instantiate(Bullet,this.transform.position+this.transform.forward + new Vector3(0,1,0),this.transform.rotation);
             bullet_.GetComponent<Rigidbody>().velocity+=this.transform.forward*25;
             Destroy(bullet_,3);
         }
-        
-        
-    
     }
 }

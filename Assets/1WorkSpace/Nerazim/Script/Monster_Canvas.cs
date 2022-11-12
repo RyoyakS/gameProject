@@ -7,7 +7,7 @@ public class Monster_Canvas : MonoBehaviour
 {
     GameObject cam;
     public Image HpBar;
-    float ReaminHP;
+    float RemainHP;
     float StartHP;
     string name;
     GameObject monster;
@@ -21,11 +21,11 @@ public class Monster_Canvas : MonoBehaviour
 
     private void Update()
     {
-        ReaminHP = monster.GetComponent<Monster_State>().HP;
-        
-        HpBar.GetComponent<Image>().fillAmount = ReaminHP/100;
-        
         this.transform.LookAt(this.transform.position + (cam.transform.rotation * Vector3.forward), cam.transform.rotation * Vector3.up);
+        
+        RemainHP = monster.GetComponent<Monster_State>().Monster_HP;
+        
+        HpBar.GetComponent<Image>().fillAmount = RemainHP/100;
         
     }
     
