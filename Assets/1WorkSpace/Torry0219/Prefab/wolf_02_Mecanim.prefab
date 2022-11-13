@@ -24765,7 +24765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mon_track_range: 20
-  mon_attack_range: 5
+  mon_attack_range: 3.5
 --- !u!114 &5194279826433257114
 MonoBehaviour:
   m_ObjectHideFlags: 0
