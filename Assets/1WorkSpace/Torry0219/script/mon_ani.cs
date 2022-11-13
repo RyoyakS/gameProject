@@ -54,7 +54,7 @@ public class mon_ani : MonoBehaviour
         {
             lockAI = false;
             ani.SetFloat("speed", vel);
-            if (Vector3.Distance(transform.position, player.transform.position) <= 2.5f)
+            if (Vector3.Distance(transform.position, player.transform.position) <= GetComponent<mon_AI>().mon_attack_range)
             {
                 Quaternion q = Quaternion.LookRotation(lookDir);
                 transform.rotation = Quaternion.Slerp(transform.rotation, q, 2 * Time.deltaTime);
