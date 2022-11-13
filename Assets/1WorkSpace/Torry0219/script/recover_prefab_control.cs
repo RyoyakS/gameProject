@@ -23,7 +23,7 @@ public class recover_prefab_control : MonoBehaviour
         eat = false;
         spawn = false;
         // initial prefab
-        Instantiate(recover_prefab, new Vector3(12.77f, 0.74f, 6.67f), new Quaternion(0f, 0f, 0f, 0f));
+        //Instantiate(recover_prefab, new Vector3(12.77f, 0.74f, 6.67f), new Quaternion(0f, 0f, 0f, 0f));
     }
 
     // Update is called once per frame
