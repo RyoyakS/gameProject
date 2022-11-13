@@ -24839,7 +24839,7 @@ Transform:
   m_GameObject: {fileID: 3568972563388726451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3568972563388467411}
@@ -24915,6 +24915,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   move_speed: 0
+  lockAI: 0
+  playermode: 0
+  dead: 0
 --- !u!114 &3568972563629817615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24927,6 +24930,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc9bfcae8b8bdd46ac537ff07e6efd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mon_track_range: 20
+  mon_attack_range: 5
 --- !u!195 &3568972563629817614
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24962,6 +24967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monster_HP: 0
+  CanChange: 0
 --- !u!114 &7923093984130056587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24987,6 +24993,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3b2072048410c4f93e9e82f54ad767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  rotateSpeed: 0
 --- !u!114 &1534155433483209914
 MonoBehaviour:
   m_ObjectHideFlags: 0
