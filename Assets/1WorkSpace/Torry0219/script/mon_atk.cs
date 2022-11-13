@@ -23,10 +23,18 @@ public class mon_atk : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<Player_State>().Player_HP -= atk_power;
+            if (other.gameObject.GetComponent<Player_State>().Player_HP < 0)
+            {
+                other.gameObject.GetComponent<Player_State>().Player_HP = 0;
+            }
         }
         else if (other.gameObject.CompareTag("Goblin") || other.gameObject.CompareTag("Troll") || other.gameObject.CompareTag("Wolf"))
         {
             other.gameObject.GetComponent<Monster_State>().Monster_HP -= atk_power;
+            if (other.gameObject.GetComponent<Player_State>().Player_HP < 0)
+            {
+                other.gameObject.GetComponent<Player_State>().Player_HP = 0;
+            }
         }
     }
 
@@ -36,10 +44,18 @@ public class mon_atk : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Player_State>().Player_HP -= atk_power;
+            if (collision.gameObject.GetComponent<Player_State>().Player_HP < 0)
+            {
+                collision.gameObject.GetComponent<Player_State>().Player_HP = 0;
+            }
         }
         else if (collision.gameObject.CompareTag("Goblin") || collision.gameObject.CompareTag("Troll") || collision.gameObject.CompareTag("Wolf"))
         {
             collision.gameObject.GetComponent<Monster_State>().Monster_HP -= atk_power;
+            if (collision.gameObject.GetComponent<Player_State>().Player_HP < 0)
+            {
+                collision.gameObject.GetComponent<Player_State>().Player_HP = 0;
+            }
         }
     }
 }
