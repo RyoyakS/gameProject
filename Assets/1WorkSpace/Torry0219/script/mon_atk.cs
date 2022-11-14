@@ -11,11 +11,9 @@ public class mon_atk : MonoBehaviour
     public AudioSource audioPlayer;
     //private int CanPlay;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        audioPlayer = gameObject.GetComponent<AudioSource>();
-        //CanPlay = 0;
-        //playSE();
+        audioPlayer = gameObject.GetComponentInParent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -71,9 +69,10 @@ public class mon_atk : MonoBehaviour
             }
         }
     }
-    public void playSE()
+
+    private void OnEnable()
     {
+        print("play");
         audioPlayer.PlayOneShot(SE);
-        //CanPlay = 0;
     }
 }
