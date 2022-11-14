@@ -6,13 +6,12 @@ public class Monster_Move : MonoBehaviour
 {
     private Quaternion lookDir;
     Rigidbody rb;
-    public float speed;
-    public float rotateSpeed;
+    public float speed = 3.5f;
+    public float rotateSpeed = 2f;
     // Start is called before the first frame update
     void Start()
     {
-        speed = 3.5f;
-        rotateSpeed = 2f;
+
     }
 
     // Update is called once per frame

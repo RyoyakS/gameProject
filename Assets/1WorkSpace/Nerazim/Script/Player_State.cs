@@ -12,6 +12,8 @@ public class Player_State : MonoBehaviour
     bool ishit = false;
     Ray ray;
     RaycastHit hit;
+
+    private Animator ani;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +24,12 @@ public class Player_State : MonoBehaviour
         state = 1;
         Player_HP = PlayerPrefs.GetFloat("Player_HP");
         Player_Score = PlayerPrefs.GetFloat("Player_Score");
+        ani = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Player_HP+=1;
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         if (Input.GetMouseButton(0) && Physics.Raycast(ray, out hit))
@@ -49,6 +51,11 @@ public class Player_State : MonoBehaviour
         if (Player_Selected_Monster)
         {
             print(Player_Selected_Monster.transform.tag);
+        }
+
+        if (Player_HP <= 0)
+        {
+            ani.SetBool("dead", true);
         }
 
 
