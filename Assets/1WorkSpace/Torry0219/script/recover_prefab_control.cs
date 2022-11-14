@@ -32,7 +32,7 @@ public class recover_prefab_control : MonoBehaviour
         // if eat item
         if (eat)
         {
-            //audioPlayer.PlayOneShot(Item_SE);
+            audioPlayer.PlayOneShot(Item_SE);
             prev_time = Time.time;
             eat = false;
             spawn = true;

@@ -6,16 +6,29 @@ using UnityEngine;
 public class mon_atk : MonoBehaviour
 {
     public float atk_power = 5;
+    
+    public AudioClip SE;
+    public AudioSource audioPlayer;
+    //private int CanPlay;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioPlayer = gameObject.GetComponent<AudioSource>();
+        //CanPlay = 0;
+        //playSE();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        /*if ()
+        {
+            CanPlay += 1;
+            if (CanPlay == 1)
+            {
+                Invoke("playSE", 0.6f);
+            }
+        }*/
     }
 
     private void OnTriggerEnter(Collider other)
@@ -57,5 +70,10 @@ public class mon_atk : MonoBehaviour
                 collision.gameObject.GetComponent<Player_State>().Player_HP = 0;
             }
         }
+    }
+    public void playSE()
+    {
+        audioPlayer.PlayOneShot(SE);
+        //CanPlay = 0;
     }
 }
