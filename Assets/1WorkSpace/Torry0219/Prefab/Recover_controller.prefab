@@ -45,5 +45,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recover_prefab: {fileID: 3139269147027251480, guid: 2078b1cd58fc2a047af0ed3dcb349271, type: 3}
-  Item_SE: {fileID: 8300000, guid: 2398b1cad840d0c4b99a6a7a114b856a, type: 3}
-  audioPlayer: {fileID: 0}

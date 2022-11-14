@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_State : MonoBehaviour
 {
@@ -14,15 +15,19 @@ public class Player_State : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(SceneManager.GetActiveScene().name=="Scene0_SpaceStation"){
+            PlayerPrefs.SetFloat("Player_HP", 100f);
+            Debug.Log("ssssss");
+        }
         state = 1;
-        Player_HP = 100f;
-        Player_Score = 0;
+        Player_HP = PlayerPrefs.GetFloat("Player_HP");
+        Player_Score = PlayerPrefs.GetFloat("Player_Score");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Player_HP+=1;
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         if (Input.GetMouseButton(0) && Physics.Raycast(ray, out hit))
@@ -45,6 +50,11 @@ public class Player_State : MonoBehaviour
         {
             print(Player_Selected_Monster.transform.tag);
         }
+
+
+        //use userpref to save the user state
+        PlayerPrefs.SetFloat("Player_HP", Player_HP);
+        PlayerPrefs.SetFloat("Player_Score", Player_Score);
         
     }
 }

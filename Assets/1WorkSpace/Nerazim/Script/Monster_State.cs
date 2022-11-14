@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Monster_State : MonoBehaviour
 {
+    public GameObject exp1;
+    public AudioClip SE;
+    public AudioSource audioPlayer;
     public float Monster_HP;
 
     public bool CanChange;
@@ -33,9 +36,12 @@ public class Monster_State : MonoBehaviour
         if(collision.transform.tag=="Bullet")
         {
             //Player_State.Player_Score += 5;
-            
+            Instantiate(exp1, transform.position, transform.rotation);
+            Destroy(exp1, 0.01f);
+            audioPlayer.PlayOneShot(SE);
             Destroy(collision.transform);
             Monster_HP-=5;
+
         }
     }
 }

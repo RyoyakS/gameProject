@@ -25,11 +25,6 @@ public class recoverItem : MonoBehaviour
             recover_prefab_control.eat = true;
             recover_prefab_control.pf_pos = transform.position;
             recover_prefab_control.pf_rot = transform.rotation;
-            other.GetComponent<Player_State>().Player_HP += 50;
-            if (other.GetComponent<Player_State>().Player_HP > 100)
-            {
-                other.GetComponent<Player_State>().Player_HP = 100;
-            }
             Destroy(this.gameObject);
         }
     }

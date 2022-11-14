@@ -17,8 +17,6 @@ public class mon_ani : MonoBehaviour
     int atkstate;
     int runstate;
 
-    
-
     Vector3 prevPos;
     // Start is called before the first frame update
     void Start()
@@ -62,7 +60,7 @@ public class mon_ani : MonoBehaviour
                 transform.rotation = Quaternion.Slerp(transform.rotation, q, 2 * Time.deltaTime);
                 ani.SetBool("attack01", true);
             }
-            if (state.fullPathHash == atkstate)
+            else if (state.fullPathHash == atkstate)
             {
                 ani.SetBool("attack01", false);
                 lockAI = true;
@@ -84,7 +82,5 @@ public class mon_ani : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-
     
 }

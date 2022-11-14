@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/1WorkSpace/Alan/MainMenu/Scenes/MainMenu.unity
+    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
+  - enabled: 1
+    path: Assets/1WorkSpace/RyoyakS/Scene/Scene0_SpaceStation.unity
+    guid: 7b533dfe561bc47c8975c955fe4ef3d3
+  - enabled: 1
+    path: Assets/1WorkSpace/RyoyakS/Scene/Scene1_Arena.unity
+    guid: 4512f77b9c10afa42ba4a1c8c7cb5b28
+  - enabled: 1
+    path: Assets/1WorkSpace/RyoyakS/Scene/Scene2_City.unity
+    guid: 01cc70f733635c84999c3f60f9564ae4
   m_configObjects: {}
